@@ -1,27 +1,35 @@
-#🧑‍💼 Employee Management System – Spring Boot (Java 17)#
-This is a simple Employee Management System built with Spring Boot and Java 17. It performs basic CRUD operations (Create, Read, Update, Delete) on employee data.
+# 🧑‍💼 Employee Management System - Spring Boot (Backend)
 
-🚀 Features:
-Add a new employee
+This is a simple **CRUD (Create, Read, Update, Delete)** backend application built using **Spring Boot** and **Java 17**. It’s designed for managing employee data and is a great learning project for beginners.
 
-View all employees
+## 🚀 Features
 
-Update employee details
+- Create a new employee
+- View all employees
+- Update existing employee details
+- Delete an employee
 
-Delete an employee
+## 🛠️ Technologies Used
 
-RESTful API using Spring Boot
+- Java 17
+- Spring Boot
+- Spring Data JPA
+- H2 Database (for testing)
+- Maven
 
-🛠️ Tech Stack:
-Java 17
+## 📦 How to Run
 
-Spring Boot
+Make sure you have **Java 17** and **Maven** installed.
 
-Spring Data JPA
+1. Clone the repository:
+```bash
+git clone https://github.com/Dimanka96/Employee-Management-System-Spring-Boot-Back-End.git
 
-H2 / MySQL (configurable)
+📬 API Endpoints
 
-Maven
-
-📌 Why use this?
-This project is perfect for beginners who want to learn the basics of Spring Boot, REST APIs, and CRUD functionality. Simple and easy to understand.
+Method	Endpoint	Description
+GET	/employees	Get all employees
+GET	/employees/{id}	Get an employee by ID
+POST	/employees	Create a new employee
+PUT	/employees/{id}	Update an employee
+DELETE	/employees/{id}	Delete an employee
